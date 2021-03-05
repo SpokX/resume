@@ -157,7 +157,6 @@ a:-webkit-any-link{
     display: flex;
     position: relative;
     justify-content: center;
-    padding-top: 150px;
 
 }
 
@@ -343,9 +342,8 @@ footer{
 }
 
 
-/* !!! @MEDIA !!!*/
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     .header-text {
        height: 10%;
        transform: translateY(-100px);
@@ -357,7 +355,13 @@ footer{
     }
 
     .icon-cont{
-        top: 0;
+        top: -270px;
         left: -50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        height: 0px;
     }
 }
