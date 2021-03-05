@@ -346,12 +346,16 @@ footer{
 @media screen and (max-width: 600px){
     .header-text {
        height: 10%;
-       transform: translateY(-100px);
+       transform: translate(-100px, 50px);
     }
 
     .const-p {
         transform: translate(-550px, -300px);
         font-size: 0.4em;
+    }
+    
+    .property{
+        transform: translateX(-50px);
     }
 
     .icon-cont{
