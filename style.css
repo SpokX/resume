@@ -359,7 +359,7 @@ footer{
     }
     
     .property{
-        transform: translateX(100px);
+        transform: translateX(-100px);
     }
 
     .icon-cont{
