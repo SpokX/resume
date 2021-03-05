@@ -354,8 +354,12 @@ footer{
         font-size: 0.4em;
     }
     
+    .const {
+        padding-bottom: 50px;
+    }
+    
     .property{
-        transform: translateX(50px);
+        transform: translateX(100px);
     }
 
     .icon-cont{
