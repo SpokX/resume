@@ -355,7 +355,7 @@ footer{
     }
     
     .property{
-        transform: translateX(-50px);
+        transform: translateX(50px);
     }
 
     .icon-cont{
