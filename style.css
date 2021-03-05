@@ -346,30 +346,36 @@ footer{
 @media screen and (max-width: 600px){
     .header-text {
        height: 10%;
-       transform: translate(-100px, 50px);
+       transform: translateY(-100px);
     }
 
     .const-p {
         transform: translate(-550px, -300px);
         font-size: 0.4em;
+        height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
     }
-    
+
     .const {
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
-    
+
     .property{
-        transform: translateX(-100px);
+        transform: translateX(-50px);
+        padding-bottom: 20px;
     }
 
     .icon-cont{
-        top: -270px;
-        left: -50px;
-        margin: 0;
-        padding: 0;
+        display: inline-block;
+        position: absolute;
+        transform: translate(30px, -250px);
+        height: 30px;
+
     }
 
     footer {
-        height: 0px;
+        height: 0;
     }
 }
